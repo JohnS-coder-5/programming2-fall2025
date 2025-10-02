@@ -1,0 +1,21 @@
+.odd {
+  background-color: lightpink;
+  font-family:Verdana "DejaVu Sans" "sans-serif"
+}
+
+#two{
+  color: blue;
+  font-size: 36px
+}
+
+.cooler {
+  font-size: 24px
+
+}
+
+#four{
+  background-color: lime;
+  font-size: 36px;
+  font-weight: bold;
+ 
+}
