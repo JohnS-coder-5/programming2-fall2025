@@ -1,0 +1,72 @@
+.openingheader{
+	background-color: #748cab;
+	font-family: Times;
+	font-size: 40px;
+	font-style: italic;
+	padding: 20px 20px;
+	border-style: outset;
+	border-color: #38a3a5;
+	width: fit-content;
+
+}
+
+body{
+	background-color: #3e5c76;
+}
+
+.links{
+	background-color: #748cab;
+	font-family: "arial";
+	display: inline-block;
+	padding: 20px;
+	border-style: outset;
+	margin-block: 20px;
+	border-color: #38a3a5;
+}
+
+
+.mac{
+	background-color: #ffb703;
+	color: #e7ecef;
+	font-family: Times;
+	font-size: 40px;
+	font-style: italic;
+	padding: 20px 20px;
+	border-style: outset;
+	border-color: #38a3a5;
+	width: fit-content;
+}
+
+.macdescription{
+	background-color: #e7ecef;
+	font-family: Times;
+	font-style: italic;
+	padding: 20px 20px;
+	border-style: outset;
+	border-color: #38a3a5;
+	width: fit-content;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
