@@ -24,7 +24,6 @@ body{
 	border-color: #38a3a5;
 }
 
-
 .mac{
 	background-color: #ffb703;
 	color: #e7ecef;
@@ -37,18 +36,40 @@ body{
 	width: fit-content;
 }
 
-.macdescription{
+.description{
 	background-color: #e7ecef;
 	font-family: Times;
+	font-style: bold;
+	padding: 20px 20px;
+	border-style: outset;
+	border-color: #38a3a5;
+	width: fit-content;
+	margin: 20px;
+}
+
+.onion{
+	background-color: #fdf0d5;
+	color: #bc6c25;
+	font-family: Times;
+	font-size: 40px;
 	font-style: italic;
 	padding: 20px 20px;
 	border-style: outset;
 	border-color: #38a3a5;
 	width: fit-content;
-
 }
 
-
+.chicken{
+	background-color: #d4a373;
+	color: #bc6c25;
+	font-family: Times;
+	font-size: 40px;
+	font-style: italic;
+	padding: 20px 20px;
+	border-style: outset;
+	border-color: #38a3a5;
+	width: fit-content;
+}
 
 
 
