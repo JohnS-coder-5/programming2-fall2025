@@ -51,8 +51,48 @@
 	padding: 0;
     display:block; 
     margin-top: 20px;
+}
+
+.group_description{
+	display: flex;
+	flex-direction: row;
+	border-style: solid;
+	margin-top: 20px;
+	border-width: 5px;
+	border-color: #780000;
+}
+
+.Leaders{
+	flex-basis: 200px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 30px;
 
 }
+
+.Position{
+	text-align:center 
+}
+
+.events{
+	display: flex;
+	justify-content: space-evenly;
+	margin:30px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
