@@ -1,0 +1,42 @@
+h1{
+	color: rgb(236, 48, 121);
+	font-family: "papyrus";
+	font-size: 100px;
+	font-size:5vw;
+	border: 5px solid red;
+	border-style: solid;
+	padding: 1px;
+}
+
+#ingredients{
+	background-color: lightblue;
+	color: purple
+}
+
+img {
+	height: 30vw;
+	width: 50%
+}
+
+
+
+.header {
+	background-color: blue;
+	color: hotpink;
+}
+
+
+body {
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUw-pEL_hn8oQogXkgqJPtjW1cAdOffF8P7Q&s");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+p {
+	font-weight: 900;
+}
+
+*{
+  text-align: center;
+}

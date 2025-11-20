@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body { /*Makes evrything go into a column, useful so we get the links all the way to the bottom*/
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  font-family: Roboto, sans-serif;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+img {
+  width: 600px;
+}
+
+button { /*Makes the buttons seem seperated and bigger-ish*/
+  font-family: Roboto, sans-serif;
+  border: none;
+  border-radius: 8px;
+  background: #eee;
+  padding: 10px;
+  margin: 10px;
+}
+
+
+
+.content{ /*Centers everything in the middle*/
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.header, .footer{ /*This will seperate the 2 links into left and right adn place em on the top and bottom*/
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-links, .right-links{ /*This will seperate the 2 links into left and right and get rid of the underline under the links*/
+  display:flex;
+  gap: 25px;
+  list-style-type: none;
+  padding: 10px;
+}
+
+.footer{
+  background-color: lightgray;
+}
+
+
+
+a{/*gets rid of text decoration like link underlineing*/
+  text-decoration: none;
+}
+
+input {
+  border: 1px solid #ddd;
+  border-radius: 16px;
+  padding: 8px 24px;
+  width: 400px;
+}

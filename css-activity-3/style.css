@@ -1,0 +1,18 @@
+
+.avatar.distorted{  /*if we used a "," it would find all of the classes with avatar not only this one, so we have nothing inbetween*/
+	width: 200px;
+	height: 400px;
+} 
+
+.avatar.proportional{
+	width: 200px;
+	height: auto;
+}
+
+
+.p , .container{   /*div p would be the descender selector which would select the children of div in regards to p 
+	color: red;
+	background-color: yellow;
+	font-size: 20px;
+	text-align: center ;
+}
