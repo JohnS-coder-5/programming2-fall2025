@@ -1,0 +1,76 @@
+body {
+	background: #53A2BE;
+}
+
+button {
+	background: #176087;
+	padding: 10px 20px;
+	border-radius: 12px;
+	color: white;
+	font-family: "Courier New";
+	font-size: 20px;
+	border-color: #CFEBDF ;
+
+}
+
+h1 {
+	display: flex;
+	background: #CFEBDF;
+	padding: 20px;
+	align-items: center;
+	flex-direction: column;
+	border-radius: 30px;
+	font-size: 40px;
+	font-family: "Georgia";
+
+
+}
+
+
+.box{
+	display: flex;
+	background: #CFEBDF;
+	padding: 20px;
+	align-items: start;
+	border-radius: 30px;
+	font-size: 20px;
+	width: fit-content;
+	font-family: "Courier New";
+}
+
+.text{
+	background: #176087;
+	padding: 20px;
+	width: fit-content;
+	border-radius: 25px;
+	font-family: "Verdana";
+	color: whitesmoke;
+}
+
+.photos{
+	display: flex;
+	border-radius: 20px;
+}
+
+.container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.animaltext{
+	background: #176087;
+	border-radius: 25px;
+	font-family: "Verdana";
+	color: whitesmoke;
+	width: auto;
+	padding: 35px;
+	margin: 20px;
+	width: 600px;
+}
+
+
+
+
+
+
