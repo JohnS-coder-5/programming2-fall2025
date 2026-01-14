@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Web Dev Final</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	
+<!-- START NAVBAR -->
+	<div class = "navbar">
+
+		  <ul class="logo">
+		    <li><a href="index.html"> <img class = "logoimg" src="logo.jpg"> </a></li>
+		  </ul>
+
+		   <ul class="links">
+		    <li><a href="People.html">People</a></li>
+		    <li><a href="Cases.html">Cases</a></li>
+		    <li><a href="Reviews.html">Reviews</a></li>
+		    <li><a href="Locations.html">Locations</a></li>
+		    <li><a href="Contact.html">Contact Us</a></li>
+		  </ul>
+	</div>
+<!-- END NAVBAR -->
+
+
+<h1 class = "headers">Use the information below if your in a bit of legal trouble !</h1>
+
+<div id="contact-fields">
+        <label class="contact-label" for="user_name">Name</label>
+        <input 
+          type="text"
+          id="user_name"
+          class="contact-input"
+          placeholder="Your name..."
+          required
+        />
+
+        <label class="contact-label" for="user_email">Email</label>
+        <input 
+          type="email"
+          id="user_email"
+          class="contact-input"
+          placeholder="example@gmail.com"
+          required
+        />
+
+        <label class="contact-label" for="message">Message</label>
+        <textarea
+          id="message"
+          class="contact-textarea"
+          placeholder="Your message..."
+          required
+        ></textarea>
+
+        <button id="submit-btn" class="contact-button">
+          Send
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <script type="text/javascript"
+          src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script src="script.js"></script>
+
+
+</body>
+</html>
